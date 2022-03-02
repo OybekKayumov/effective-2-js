@@ -10,6 +10,27 @@ function Header() {
             <img src="/images/home-icon.svg"></img>
             <span>HOME</span>
           </a>
+          <a>
+            <img src="/images/search-icon.svg"></img>
+            <span>SEARCH</span>
+          </a>
+          <a>
+            <img src="/images/watchlist-icon.svg"></img>
+            <span>WATCHLIST</span>
+          </a>
+          <a>
+            <img src="/images/original-icon.svg"></img>
+            <span>ORIGINALS</span>
+          </a>
+          <a>
+            <img src="/images/movie-icon.svg"></img>
+            <span>MOVIE</span>
+          </a>
+          <a>
+            <img src="/images/series-icon.svg"></img>
+            <span>SERIES</span>
+          </a>
+
 
       </NavMenu>
     </Nav>
