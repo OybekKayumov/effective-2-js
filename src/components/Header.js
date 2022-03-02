@@ -80,6 +80,15 @@ const NavMenu = styled.div`
         left: 0;
         right: 0;
         bottom: -6px;
+        opacity: 0;
+        transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+        transform: scaleX(0);
+      }
+    }
+    &:hover {
+      span:after {
+        transform: scaleX(1);
+        opacity: 1;
       }
     }
   }
