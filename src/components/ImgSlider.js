@@ -21,6 +21,9 @@ function ImgSlider() {
         <Wrap>
           <img src='/images/slider-badging.jpg' alt='' />
         </Wrap>
+        <Wrap>
+          <img src='/images/slider-badag.jpg' alt='' />
+        </Wrap>
     </Carousel>
   )
 }
@@ -28,9 +31,21 @@ function ImgSlider() {
 export default ImgSlider
 
 const Carousel = styled(Slider)`
+  margin-top: 20px;
+
+  .slick-list {
+    overflow: visible;
+  }
 
 `
 
 const Wrap = styled.div`
+  img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    
+  }
 
 `
