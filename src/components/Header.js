@@ -30,9 +30,8 @@ function Header() {
             <img src="/images/series-icon.svg"></img>
             <span>SERIES</span>
           </a>
-
-
       </NavMenu>
+      <UserImg src=""/>
     </Nav>
   )
 }
@@ -54,11 +53,15 @@ const Logo = styled.img`
 
 const NavMenu = styled.div`
   display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 25px;
 
   a {
     display: flex;
     align-items: center;
     padding: 0 12px;
+    cursor: pointer;
     
     img {
       height: 20px;
@@ -69,4 +72,13 @@ const NavMenu = styled.div`
       letter-spacing: 1.42px; 
     }
   }
+`
+
+const UserImg = styled.img`
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: coral;
+  cursor: pointer;
+
 `
